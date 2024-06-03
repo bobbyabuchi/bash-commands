@@ -7,4 +7,5 @@ ls -l Documents/*.pdf # show all PDF files in Docs dir
 mv 'Documents/notes.txt' Documents/MyTexts/ # move the notes.txt file from Documents to sub dir MyTexts
 mv 'Documents/*.txt' Documents/MyTexts/ # move all the .txt files from Documents to sub dir MyTexts
 
-n
+curl 'http://google.com' # this will notify you 'The document has moved' due to certain redirects...
+curl -L 'http://google.com' # the -L flag will take care of the redirects...
